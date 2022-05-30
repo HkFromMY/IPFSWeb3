@@ -6,7 +6,7 @@ import SuccessModal from '../components/SuccessModal';
 import './Styles/UploadFile.css';
 
 export default function UploadFile() {
-    const [fileUploded, setFileUploaded] = React.useState('');
+    const [fileUploaded, setFileUploaded] = React.useState('');
     const [CID, setCID] = React.useState("");
     const [receipient, setReceipient] = React.useState({
         name: "",
@@ -24,7 +24,7 @@ export default function UploadFile() {
             name: "fileUploaded",
             keyvalues: receipient
         }));
-        formData.append('file', fileUploded);
+        formData.append('file', fileUploaded);
 
         fetch('https://api.pinata.cloud/pinning/pinFileToIPFS', {
             method: 'POST',

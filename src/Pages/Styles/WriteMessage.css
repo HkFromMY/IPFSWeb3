@@ -1,0 +1,41 @@
+.write-message-container {
+    width: 55%;
+    margin: 36px auto;
+    padding: 16px;
+    box-shadow: 1px 1px 5px #424042;
+}
+
+.message-box-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.message-box {
+    resize: none;
+    height: 420px;
+}
+
+.send-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.send-message-button {
+    width: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+    .write-message-container {
+        width: 90%;
+    }
+
+    .message-box-title {
+        font-size: 24px;
+    }
+
+    .form-title {
+        font-size: 16px;
+    }
+}

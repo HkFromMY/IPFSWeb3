@@ -1,0 +1,92 @@
+.home-container {
+    width: 55%;
+    margin: 36px auto;
+    padding: 16px;
+    box-shadow: 1px 1px 5px #424042;
+}
+
+.home-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.cid-form {
+    width: 65%;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 12px;
+}
+
+.button-container {
+    margin-top: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.home-button {
+    width: 45%;
+}
+
+.file-content {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.message-content {
+    width: 65%;
+    margin: 32px auto;
+}
+
+.error-msg {
+    font-size: 24px;
+    text-align: center;
+    color: tomato;
+}
+
+.message-value {
+    color: #797875;
+}
+
+#message {
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* for mobile users */
+
+    .home-title {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .cid-form,
+    .message-content 
+    {
+        width: 90%;
+    }
+
+    .home-button {
+        width: 100%;
+    }
+
+    .receipient-details {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .message-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .message-value {
+        font-size: 14px;
+        color: #797875;
+    }
+}

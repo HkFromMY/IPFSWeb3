@@ -1,0 +1,28 @@
+.edit-message-container {
+    width: 55%;
+    margin: 36px auto;
+    padding: 32px;
+    box-shadow: 1px 1px 5px #424042;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form-big-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.edit-form {
+    margin-top: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .edit-message-container {
+        width: 90%;
+    }
+
+    .form-big-title {
+        font-size: 24px;
+    }
+}

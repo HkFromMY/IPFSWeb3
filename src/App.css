@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* body {
+    background: url('../public/images/earth.jpg') no-repeat center top;
+    background-size: cover;
+} */
+
+/* .navbar-container {
+    background-color: rgba(33, 37, 41, 0.8);
+} */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.navbar > div:not(:first-child) {
+    border-left: 2px solid white;
+    padding-left: 16px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 6px;
+}
+
+.navigation-link:hover {
+    color: lightgray;
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation-link:not(:first-child) {
+        border: 0;
+    }
+
+    .navbar > div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar > div:not(:last-child) {
+        border-bottom: 1px solid white;
+        padding: 6px 0;
+    }
+
+    .navbar > div:last-child {
+        padding-top: 6px;
+    }
+}

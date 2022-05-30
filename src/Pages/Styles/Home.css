@@ -1,0 +1,44 @@
+.home-page {
+    max-width: 1024px;
+    margin: 15% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.home--title {
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.home--description {
+    margin-top: 14px;
+    max-width: 568px;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.home--button {
+    padding: 12px 48px;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #013220;
+    border: none;
+    outline: none;
+    letter-spacing: 3px;
+}
+
+.home--button:hover {
+    background-color: #006400;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page {
+        margin: 15% 12px;
+    }
+}

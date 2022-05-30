@@ -1,0 +1,39 @@
+.upload-file-container {
+    width: 55%;
+    margin: 36px auto;
+    padding: 16px;
+    box-shadow: 1px 1px 5px #424042;
+}
+
+.upload-file-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.upload-file-box {
+    resize: none;
+    height: 420px;
+    margin-bottom: 16px;
+}
+
+.send-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .upload-file-container {
+        width: 90%;
+    }
+
+    .upload-file-title {
+        font-size: 24px;
+    }
+
+    .form-title {
+        font-size: 16px;
+    }
+    
+}

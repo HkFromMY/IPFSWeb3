@@ -1,0 +1,45 @@
+.delete-content-container {
+    width: 55%;
+    margin: 36px auto;
+    padding: 32px;
+    box-shadow: 1px 1px 5px #424042;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.delete-content-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.delete-cid-form {
+    /* width: 65%; */
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 12px;
+}
+
+.delete-button {
+    align-self: center;
+    width: 35%;
+}
+
+.delete-message {
+    text-align: center;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .delete-content-container, 
+    .delete-cid-form
+    {
+        width: 90%;
+    }
+
+    .delete-content-title {
+        font-size: 24px;
+    }
+}

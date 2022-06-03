@@ -25,4 +25,5 @@ The IPFS network is accessed in the system via the API provided by the Pinata ga
 2. The request rate is limited and performance can be slow if using public gateway instead of dedicated gateway which requires the developer to subscribe to the Pinata service.
 3. The users of the system need to remember the CID generated when uploading the file to retrieve the same content again next time unless the CID is managed by a centralized database server.
 
-
+### Dependencies
+For the required dependencies, please check `package.json` and run `npm install`.
